@@ -1,22 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Arquivos de Origem">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Console">
+      <UniqueIdentifier>{ab4311aa-563f-445b-8537-3ae262132d1a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Arquivos de Cabeçalho">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Server">
+      <UniqueIdentifier>{f0db382e-db0d-45d3-bfa2-7eb3bc6af84b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Arquivos de Recurso">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{55348174-535d-4de7-aaad-cb2e37588e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Models">
+      <UniqueIdentifier>{ccfb0d05-af00-434a-891f-198f4d135afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Static">
+      <UniqueIdentifier>{f810dea6-6859-40a1-8ebf-fc3ddbf4054b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{d03f476f-b86d-4af9-9a22-b5ea779f1a42}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPSC.Console.cpp">
-      <Filter>Arquivos de Origem</Filter>
+    <ClCompile Include="Main.cpp">
+      <Filter>Console</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Computer.h">
+      <Filter>Domain\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Domain\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions.h">
+      <Filter>Domain\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

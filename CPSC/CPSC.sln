@@ -5,12 +5,6 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPSC.Console", "CPSC.Console\CPSC.Console.vcxproj", "{E9A37AED-60CA-41C4-A56E-A1053F33AC64}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{23DFC781-E161-4161-94CC-15D4EB6381DC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{C7F0D1CD-EBB1-446E-B749-76178CC48ABA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infrastructure", "2 - Infrastructure", "{56FFD521-BD80-45EC-B570-FB6EB84F5B96}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -30,9 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E9A37AED-60CA-41C4-A56E-A1053F33AC64} = {23DFC781-E161-4161-94CC-15D4EB6381DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C4C0DEF-BC51-4E27-AEF1-F0F2937DD895}
